@@ -1,0 +1,16 @@
+{
+    "name": "fknoedt/hiring-project",
+    "description": "Challenge during a hiring process for a ccompany in NC",
+    "type": "project",
+    "require": {
+        "slim/slim": "^4.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Filipe Knoedt",
+            "email": "fknoedt@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
