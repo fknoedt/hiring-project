@@ -35,4 +35,13 @@ MySQL was the chosen database engine. The DB Schema and Questions & Answers can 
 
 ## Environment
 
-To setup the environment configuration,
+To setup the environment configuration, create a `.env` file on the root directory with this content set to your environment:
+```
+DB_HOST=127.0.0.1
+DB_DATABASE=sss
+DB_USERNAME=root
+DB_PASSWORD=
+DB_CONNECTION=
+DB_DRIVER=mysql
+DB_PORT=3306
+```
