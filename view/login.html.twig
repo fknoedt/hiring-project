@@ -1,0 +1,20 @@
+{% include "header.html.twig" %}
+<script language="JavaScript" src="/assets/login.js"></script>
+<div class="container">
+    <div class="card card-container">
+        <div class="description text-center">
+            <h1>Welcome to Slim Simple Sample (SSS)</h1>
+            <p>You should have your credentials =)</p>
+        </div>
+        <i class="fas fa-sign-in-alt fa-6x profile-img-card"></i>
+        <p id="profile-name" class="profile-name-card"></p>
+        <form class="form-signin" onsubmit="return submitLogin();">
+            <span id="reauth-user" class="reauth-user"></span>
+            <input type="text" id="inputUser" class="form-control" placeholder="Username" required autofocus>
+            <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+            <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Sign in</button>
+        </form><!-- /form -->
+    </div><!-- /card-container -->
+</div><!-- /container -->
+
+{% include "footer.html.twig" %}
