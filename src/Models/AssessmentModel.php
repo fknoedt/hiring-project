@@ -36,7 +36,7 @@ class AssessmentModel extends Model
      * Many to One relationship with Area
      * @return object
      */
-    public function area(): object
+    public function area()
     {
         return $this->belongsTo(AreaModel::class, 'areaId');
     }

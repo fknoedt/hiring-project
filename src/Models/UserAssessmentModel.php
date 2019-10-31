@@ -37,7 +37,7 @@ class UserAssessmentModel extends Model
      * One to One relationship with User
      * @return object
      */
-    public function user(): object
+    public function user()
     {
         return $this->belongsTo(UserModel::class, 'userId');
     }
@@ -46,7 +46,7 @@ class UserAssessmentModel extends Model
      * One to One relationship with Assessment
      * @return object
      */
-    public function assessment(): object
+    public function assessment()
     {
         return $this->belongsTo(AssessmentModel::class, 'assessmentId');
     }

@@ -6,7 +6,7 @@ CREATE DATABASE `sss`
 CHARACTER SET 'utf8mb4'
 COLLATE 'utf8mb4_general_ci';
 
-USE `strivven`;
+USE `sss`;
 
 CREATE TABLE users(
   `id` int AUTO_INCREMENT PRIMARY KEY,
