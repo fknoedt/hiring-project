@@ -2,14 +2,9 @@
 
 ## Disclaimer
 
-This project was implemented in 3 days so I couldn't be more detailist and had to overlook some parts that would definitely get more attention otherwise.
+This project was implemented in 3 days so I had to overlook some parts that would get more attention otherwise.
 
-Many of the conventions (autoload, directories, configs, file and class naming) were taken from Laravel and Symfony but the structure was built from scratch - not based on any existing structure - with Slim and the components below.
-
-## Slim
-  * version 4.3 (latest stable)
-  * tried two different skeleton applications but went lean
-  * spent more time than expected learning Slim and elaborating a backend architecture but got a good understanding of the framework and enjoyed it
+Many of the conventions (autoload, directories, configs, file, class naming) were taken from Laravel and Symfony but the structure was built from scratch using Slim 4.3.0 and the components below.
 
 ## composer dependencies required
  ```
@@ -27,7 +22,7 @@ Many of the conventions (autoload, directories, configs, file and class naming) 
 
 ## Database
 
-MySQL was the chosen database engine. The DB Schema and Questions & Answers can be found on the `/database` folder on this repository.
+MySQL was the chosen database engine. The DB Schema and Questions & Answers can be found in the `/database` folder in this repository.
 
 ## Bootstrap
   * login page layout:  https://bootsnipp.com/snippets/emRPM
@@ -48,4 +43,4 @@ DB_PORT=3306
 
 ## Demo
 
-You can see the project live here: https://sss.filipe.knoedt.net (user: `james` | pass: `20191027`)
+You can see the project live here: https://sss.filipe.knoedt.net (user: `demo` | pass: `20191027`)
