@@ -40,7 +40,3 @@ DB_CONNECTION=
 DB_DRIVER=mysql
 DB_PORT=3306
 ```
-
-## Demo
-
-You can see the project live here: https://sss.filipe.knoedt.net (user: `demo` | pass: `20191027`)
